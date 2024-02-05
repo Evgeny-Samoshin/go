@@ -87,6 +87,124 @@
   </section>
 
   <section>
+    <h2>Забронировать</h2>
+
+    <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+      <fieldset>
+        <label for="vibes">
+          <input type="radio" name="hall" id="vibes" value="80's vibes">80's vibes
+        </label>
+        <label for="starwars">
+          <input type="radio" name="hall" id="starwars" value="Star wars">Star wars
+        </label>
+        <label for="wilde">
+          <input type="radio" name="hall" id="wilde" value="Wild west">Wild west
+        </label>
+        <label for="neon">
+          <input type="radio" name="hall" id="neon" value="Neon style">Neon style
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Собери набор развлечений</legend>
+
+        <fieldset>
+          <legend>Приставка:</legend>
+
+          <label for="ps5">
+            <input type="radio" name="console" id="ps5" value="PlayStation 5">PlayStation 5
+          </label>
+          <label for="sega">
+            <input type="radio" name="console" id="sega" value="Sega Mega Drive">Sega Mega Drive
+          </label>
+          <label for="x-box">
+            <input type="radio" name="console" id="x-box" value="X-Box One S">X-Box One S
+          </label>
+          <label for="dendy">
+            <input type="radio" name="console" id="dendy" value="Dendy">Dendy
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Настольные игры:</legend>
+
+          <label for="jenga">
+            <input type="checkbox" name="tableGame" id="jenga" value="Jenga">Jenga
+          </label>
+          <label for="monopoly">
+            <input type="checkbox" name="tableGame" id="monopoly" value="Monopoly">Monopoly
+          </label>
+          <label for="manchkin">
+            <input type="checkbox" name="tableGame" id="manchkin" value="Манчкин">Манчкин
+          </label>
+          <label for="alias">
+            <input type="checkbox" name="tableGame" id="alias" value="Alias">Alias
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Допольнительно:</legend>
+
+          <label for="karaoke">
+            <input type="checkbox" name="additionally" id="karaoke" value="Караоке">Караоке
+          </label>
+          <label for="vr">
+            <input type="checkbox" name="additionally" id="vr" value="VR">VR
+          </label>
+        </fieldset>
+      </fieldset>
+
+      <fieldset>
+        <legend>Выбери дату и время</legend>
+
+        <div>
+          <label for="date">Дата*
+            <input type="date" name="date" id="date" required>
+          </label>
+          <label for="time">Время*
+            <input type="time" name="time" id="time" required>
+          </label>
+        </div>
+
+        <div>
+          <label for="peopleQuantity">Количество человек*
+            <input type="number" name="peopleQuantity" id="peopleQuantity" required>
+          </label>
+        </div>
+
+        <div>
+          <label for="name">Имя*
+            <input type="text" name="name" id="name" required>
+          </label>
+        </div>
+
+        <div>
+          <label for="surname">Фамилия*
+            <input type="text" name="surname" id="surname" required>
+          </label>
+        </div>
+
+        <div>
+          <label for="tel">Номер телефона*
+            <input type="tel" name="tel" id="tel" required>
+          </label>
+        </div>
+
+        <div>
+          <label for="ageCheck">
+            <input type="checkbox" name="ageCheck" id="ageCheck">Я старше 18 лет
+          </label>
+        </div>
+      </fieldset>
+      <button type="submit">Забронировать</button>
+
+      <label for="personalDataAgreement">
+        <input type="checkbox" name="personalDataAgreement" id="personalDataAgreement" required>Я согласен на обработку персональных данных
+      </label>
+    </form>
+  </section>
+
+  <section>
     <h2>О нас</h2>
 
     <p>Для наших гостей мы создали <i>концептуально новое игровое пространство виртуальной реальности</i> в центральной
@@ -106,7 +224,7 @@
     <div>г. Москва, ул. Аквамарина, 16</div>
     <div><a href="tel:+79509302893">8(950)930-28-93</a></div>
     <div><a href="mailto:gameover@gmail.com">GameOver@gmail.com</a></div>
-    
+
     <ul>
       <li><a href="#">Vkontakte</a></li>
       <li><a href="#">Telegram</a></li>
