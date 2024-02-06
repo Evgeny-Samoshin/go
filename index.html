@@ -18,11 +18,11 @@
     <h1>Меню</h1>
     <nav>
       <ul>
-        <li><a href="#">Залы</a></li>
-        <li><a href="#">О нас</a></li>
-        <li><a href="#">Бронь</a></li>
-        <li><a href="#">Отзывы</a></li>
-        <li><a href="#">Контакты</a></li>
+        <li><a href="#halls">Залы</a></li>
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#order">Бронь</a></li>
+        <li><a href="#comments">Отзывы</a></li>
+        <li><a href="#contacts">Контакты</a></li>
       </ul>
     </nav>
   </header>
@@ -75,7 +75,7 @@
     </ul>
   </section>
 
-  <section>
+  <section id="halls">
     <h2>Наши залы</h2>
 
     <ol>
@@ -86,11 +86,12 @@
     </ol>
   </section>
 
-  <section>
-    <h2>Забронировать</h2>
+  <section id="order">
+    <h2>Забронировать зал просто</h2>
 
     <form action="https://jsonplaceholder.typicode.com/posts" method="post">
       <fieldset>
+        <legend>Выбери зал</legend>
         <label for="vibes">
           <input type="radio" name="hall" id="vibes" value="80's vibes">80's vibes
         </label>
@@ -158,53 +159,49 @@
         <legend>Выбери дату и время</legend>
 
         <div>
-          <label for="date">Дата*
+          <label for="date">Дата
             <input type="date" name="date" id="date" required>
           </label>
-          <label for="time">Время*
+          <label for="time">Время
             <input type="time" name="time" id="time" required>
           </label>
         </div>
 
         <div>
-          <label for="peopleQuantity">Количество человек*
+          <label for="peopleQuantity">Сколько человек
             <input type="number" name="peopleQuantity" id="peopleQuantity" required>
           </label>
         </div>
 
         <div>
-          <label for="name">Имя*
+          <label for="name">Имя
             <input type="text" name="name" id="name" required>
           </label>
         </div>
 
         <div>
-          <label for="surname">Фамилия*
+          <label for="surname">Фамилия
             <input type="text" name="surname" id="surname" required>
           </label>
         </div>
 
         <div>
-          <label for="tel">Номер телефона*
+          <label for="tel">Телефон
             <input type="tel" name="tel" id="tel" required>
           </label>
         </div>
-
         <div>
-          <label for="ageCheck">
-            <input type="checkbox" name="ageCheck" id="ageCheck">Я старше 18 лет
+          <label for="email">E-mail
+            <input type="email" name="email" id="email" required>
           </label>
         </div>
       </fieldset>
-      <button type="submit">Забронировать</button>
 
-      <label for="personalDataAgreement">
-        <input type="checkbox" name="personalDataAgreement" id="personalDataAgreement" required>Я согласен на обработку персональных данных
-      </label>
+      <button type="submit">Забронировать</button>
     </form>
   </section>
 
-  <section>
+  <section id="about">
     <h2>О нас</h2>
 
     <p>Для наших гостей мы создали <i>концептуально новое игровое пространство виртуальной реальности</i> в центральной
@@ -218,7 +215,35 @@
     </blockquote>
   </section>
 
-  <footer>
+  <section id="comments">
+    <h2>Отзывы посетителей</h2>
+
+    <ul>
+      <li>
+        <figure>
+          <img src="./assets/img/man1.JPG" alt="Фото автора отзыва, мужчина в шляпе">
+          <figcaption>Макс Самойлов</figcaption>
+        </figure>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas ut tenetur inventore, eaque amet repudiandae obcaecati, similique eum culpa placeat totam id consequatur libero adipisci minus labore nulla enim commodi. Neque necessitatibus sapiente fugit a iusto consequatur debitis tempora sequi.</p>
+      </li>
+      <li>
+        <figure>
+          <img src="./assets/img/girl.JPG" alt="Фото автора отзыва, девушка показывает большой палец вверх">
+          <figcaption>Оксана Григорьева</figcaption>
+        </figure>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut aliquid exercitationem obcaecati iusto enim eius necessitatibus sint nemo laboriosam aperiam!</p>
+      </li>
+      <li>
+        <figure>
+          <img src="./assets/img/man2.JPG" alt="Фото автора отзыва, счастливый мужчина улыбается">
+          <figcaption>Никита Ященко</figcaption>
+        </figure>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod provident incidunt cumque eaque ab, sed beatae suscipit et aliquid commodi? Ratione consectetur a cumque dolor beatae ullam officiis quia. Quia.</p>
+      </li>
+    </ul>
+  </section>
+
+  <footer id="contacts">
     <h2>Контакты</h2>
 
     <div>г. Москва, ул. Аквамарина, 16</div>
