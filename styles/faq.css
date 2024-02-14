@@ -17,7 +17,6 @@
 
 .questions__list-item::after {
   content: "";
-  background-image: url(../assets/img/open-purple.svg);
   display: block;
   width: 46px;
   height: 46px;
@@ -30,4 +29,8 @@
 
 .questions__list-item:nth-child(even)::after {
   background-image: url(../assets/img/open.svg);
+}
+
+.questions__list-item:nth-child(odd)::after {
+  background-image: url(../assets/img/open-purple.svg);
 }
