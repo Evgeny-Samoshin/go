@@ -8,6 +8,19 @@ body {
   color: #FFFFFF;
 }
 
+.main {
+  padding-top: 96px;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+
+ul, h1, h2, p {
+  margin: 0;
+}
+
 ul {
   list-style: none;
 }
@@ -32,7 +45,7 @@ address, cite {
 }
 
 .h2 {
-  margin-top: 100px;
+  padding-bottom: 50px;
   font-weight: 700;
   font-size: 40px;
   line-height: 125%;
@@ -41,7 +54,6 @@ address, cite {
 }
 
 .hero {
-  margin-top: 146px;
   height: 823px;
 }
 
@@ -58,7 +70,6 @@ address, cite {
 }
 
 .hero__title {
-  margin: 0;
   font-weight: 900;
   font-size: 150px;
   line-height: 100%;
@@ -66,7 +77,6 @@ address, cite {
 }
 
 .hero__subtitle {
-  margin: 0;
   padding-left: 100px;
   font-weight: 400;
   font-size: 28px;
@@ -115,9 +125,14 @@ address, cite {
   line-height: 140%;
 }
 
+.content > p {
+  padding-bottom: 20px;
+}
+
 .blockquote {
   display: flex;
   flex-direction: column;
+  gap: 40px;
 }
 
 

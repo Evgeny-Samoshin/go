@@ -1,4 +1,7 @@
 .questions__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   padding-left: 0;
 }
 
@@ -12,7 +15,6 @@
   font-weight: 700;
   font-size: 24px;
   padding: 30px 70px;
-  margin-bottom: 20px;
 }
 
 .questions__list-item::after {
