@@ -1,2 +1,4 @@
+@import url(./styles/normalize.css);
+@import url(./styles/global.css);
 @import url(./styles/style.css);
 @import url(./styles/faq.css);
