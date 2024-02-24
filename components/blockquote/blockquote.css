@@ -1,0 +1,70 @@
+.blockquote {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 0 55px;
+}
+
+/* Скобки через position: absolute */
+
+.blockquote__text {
+  position: relative;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 114%;
+  text-transform: uppercase;
+}
+
+.blockquote__text::after,
+.blockquote__text::before {
+  content: "";
+  background-image: url(./img/bracket.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+
+.blockquote__text::before {
+  left: -55px;
+}
+
+.blockquote__text::after {
+  right: 35px;
+  bottom: 25px;
+  transform: rotate(180deg);
+}
+
+/* Скобки через span */
+
+/* .blockquote__text {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 114%;
+  text-transform: uppercase;
+} */
+
+/* .braket {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url(../assets/img/bracket.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+} */
+
+/* .braket_right {
+  background-position: bottom;
+  transform: rotate(180deg);
+} */
+
+.blockquote__autor {
+  display: flex;
+  gap: 30px;
+  width: 390px;
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+}

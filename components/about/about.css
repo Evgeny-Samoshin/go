@@ -1,0 +1,9 @@
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  margin-bottom: 70px;
+}

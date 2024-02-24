@@ -61,7 +61,8 @@ h2,
 h3,
 p,
 figure,
-fieldset {
+fieldset,
+blockquote {
   margin: 0;
 }
 
@@ -102,4 +103,15 @@ address, cite {
   padding: 50px 0;
 }
 
+.hidden {
+  display: none;
+}
 
+.h2 {
+  padding-bottom: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+}
