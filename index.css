@@ -1,2 +1,12 @@
+@import url(./styles/normalize.css);
+@import url(./styles/global.css);
 @import url(./styles/style.css);
-@import url(./styles/faq.css);
+
+@import url(./components/main/main.css);
+@import url(./components/hero/hero.css);
+@import url(./components/halls/halls.css);
+@import url(./components/about/about.css);
+@import url(./components/blockquote/blockquote.css);
+@import url(./components/questions/questions.css);
+@import url(./components/contacts/contacts.css);
+@import url(./components/social/social.css);
