@@ -1,0 +1,36 @@
+.comments {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.comments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.comments-list__item {
+  display: flex;
+  gap: 20px;
+  max-width: 980px;
+}
+
+.list-item {}
+
+.figure {}
+
+.figure__img {
+  min-width: 280px;
+  margin-bottom: 11px;
+}
+
+.figure__text {
+  text-align: center;
+}
+
+.list-item__text {
+  padding-top: 52px;
+}
+
+.comments__list-item {}

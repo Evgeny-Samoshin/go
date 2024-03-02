@@ -1,7 +1,7 @@
 .halls__list {
   display: flex;
-  flex-direction: column;
-  gap: 60px;
+  flex-wrap: wrap;
+  gap: 20px;
   font-weight: 700;
   font-size: 70px;
   line-height: 114%;
@@ -12,7 +12,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 710px;
+  height: 349px;
+  width: 580px;
   background-repeat: no-repeat;
   background-size: contain;
   text-align: center;
