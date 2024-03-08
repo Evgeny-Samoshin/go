@@ -1,0 +1,22 @@
+.header {
+  padding-top: 30px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 227%;
+  text-transform: uppercase;
+}
+
+.menu__item:hover {
+  color: #cd06ff;
+  transition: 0.5s;
+}

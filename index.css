@@ -1,7 +1,8 @@
 @import url(./styles/normalize.css);
 @import url(./styles/global.css);
 
-
+@import url(./components/header/header.css);
+@import url(./components/btn/btn.css);
 @import url(./components/main/main.css);
 @import url(./components/hero/hero.css);
 @import url(./components/halls/halls.css);

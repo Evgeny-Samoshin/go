@@ -99,6 +99,14 @@ address, cite {
   margin: 0 auto;
 }
 
+.row {
+  display: flex;
+}
+
+.row_justify_between {
+  justify-content: space-between;
+}
+
 .section {
   padding: 50px 0;
 }
