@@ -1,0 +1,173 @@
+.order {
+  padding: 80px 0;
+  background-color: #440F51;
+}
+
+/* .form {} */
+
+.form__container {
+  margin: 0 auto;
+  max-width: 1020px;
+  padding: 0 20px;
+}
+
+.form__fieldset {
+  border: none;
+  margin-bottom: 60px;
+}
+
+.form__fieldset:nth-last-of-type(1) {
+  margin-bottom: 40px;
+}
+
+.form__halls-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.form__legend {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 117%;
+  text-align: center;
+}
+
+.form__halls-label {
+  flex-grow: 1;
+  padding: 8px 15px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 133%;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #000;
+  cursor: pointer;
+}
+
+.input_hidden {
+  height: 0;
+  width: 0;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.form__games-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.games {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.games__legend {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 117%;
+  margin-bottom: 23px;
+}
+
+.games__label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.games__input {
+  height: 25px;
+  width: 25px;
+}
+
+.date-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.date-wrapper__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.date-wrapper__item:nth-child(odd) {
+  flex-basis: 300px;
+}
+
+.date-wrapper__item:nth-child(even) {
+  flex-basis: 280px;
+}
+
+.date-time {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 36px;
+  padding-top: 16px;
+}
+
+.people {
+  display: flex;
+}
+
+.date-time__label,
+.people__label {
+  flex-shrink: 0;
+  position: relative;
+  padding: 12px 20px;
+  font-size: 18px;
+  line-height: 156%;
+  color: #211e1e;
+  background-color: #fff;
+}
+
+.date-time__label {
+  width: 134px;
+}
+
+.people__label {
+  width: 300px;
+}
+
+.date-time__label::after,
+.people__label::after {
+  content: '';
+  position: absolute;
+  top: 19px;
+  right: 19px;
+  height: 0px;
+  width: 0px;
+  border-top: 15px solid #000;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: none;
+}
+
+.customer {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.customer__label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  line-height: 114%;
+}
+
+.customer__input {
+  padding: 12px 20px;
+  font-size: 18px;
+  line-height: 156%;
+  color: #211e1e;
+  background-color: #fff;
+}

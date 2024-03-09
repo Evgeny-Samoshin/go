@@ -23,3 +23,12 @@
   color: #6c0287;
   text-shadow: 1px 1px 3px #6c0287;
 }
+
+.btn_white {
+  display: block;
+  margin-left: auto;
+  padding: 16px 50px;
+  background-color: #fff;
+  color: #6c0287;
+  font-size: 22px;
+}
