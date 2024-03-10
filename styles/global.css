@@ -70,7 +70,8 @@ blockquote {
   margin: 0;
 }
 
-iframe {
+iframe,
+input {
   border: none;
 }
 
@@ -120,7 +121,7 @@ address, cite {
 }
 
 .h2 {
-  padding-bottom: 50px;
+  margin-bottom: 40px;
   font-weight: 700;
   font-size: 40px;
   line-height: 125%;
