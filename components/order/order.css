@@ -91,6 +91,7 @@
 .date-wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   gap: 50px;
 }
 
@@ -111,7 +112,6 @@
   display: flex;
   gap: 32px;
   margin-bottom: 36px;
-  padding-top: 16px;
 }
 
 .people {
@@ -157,9 +157,13 @@
   gap: 14px;
 }
 
-.customer__label {
+.customer__item {
   display: flex;
   flex-direction: column;
+  gap: 6px;
+}
+
+.customer__label {
   font-size: 14px;
   line-height: 114%;
 }
