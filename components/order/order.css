@@ -34,9 +34,14 @@
   text-align: center;
 }
 
+.halls__item {
+  display: flex;
+  flex-basis: 250px;
+}
+
 .form__halls-label {
-  flex-grow: 1;
-  padding: 8px 15px;
+  flex-basis: 250px;
+  padding: 5px 15px;
   font-weight: 700;
   font-size: 30px;
   line-height: 133%;
@@ -46,6 +51,21 @@
   border-radius: 8px;
   color: #000;
   cursor: pointer;
+}
+
+.form__halls-label:hover {
+  outline: 3px solid #6c0287;
+  background-color: #eadeed;
+}
+
+.form__halls-input:focus + .form__halls-label {
+  outline: 3px solid #6c0287;
+}
+
+.form__halls-label:active {
+  outline-color: #fff;
+  background-color: #6c0287;
+  color: #fff;
 }
 
 .input_hidden {
@@ -86,6 +106,10 @@
 .games__input {
   height: 25px;
   width: 25px;
+}
+
+.games__input:focus {
+  outline: 1px solid #cd06ff;
 }
 
 .date-wrapper {
@@ -174,4 +198,8 @@
   line-height: 156%;
   color: #211e1e;
   background-color: #fff;
+}
+
+.customer__input:focus {
+  outline: 2px solid #cd06ff;
 }

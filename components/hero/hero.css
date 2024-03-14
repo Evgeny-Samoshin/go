@@ -62,13 +62,34 @@
 }
 
 .hero__scroll-down {
+  display: block;
   position: absolute;
   left: calc(50% - 48.5px);
   bottom: 90px;
   z-index: 1;
 }
 
-.hero__scroll-down-icon:hover rect,
+.hero__scroll-down:focus {
+  outline: 1px solid #cd06ff;
+}
+
+.hero__scroll-down:active {
+  outline: none;
+}
+
+.hero__scroll-down-icon:hover rect {
+  fill: #cd06ff;
+}
 .hero__scroll-down-icon:hover circle {
+  /* stroke: #cd06ff; */
+  fill: #fff;
+}
+
+.hero__scroll-down:active .hero__scroll-down-icon circle {
   stroke: #cd06ff;
+  fill: #cd06ff;
+}
+
+.hero__scroll-down:active .hero__scroll-down-icon rect {
+  fill: #fff;
 }

@@ -43,6 +43,27 @@
   gap: 26px;
 }
 
+
+
+.social__img:hover > path {
+  fill: #eadeed;
+}
+.social__img:active > path {
+  fill: #cd06ff;
+}
+
+.social__link {
+  display: block;
+}
+
+.social__link:focus {
+  outline: 1px solid #cd06ff;
+}
+
+.social__link:active {
+  outline: none;
+}
+
 .disigner {
   display: flex;
   flex-direction: column;
