@@ -49,6 +49,14 @@ background-image: url(img/netflix.jpg);
 background-image: url(img/sony.jpg);
 }
 
+.we-have__list-item_down {
+  margin-top: 70px;
+}
+
+.we-have__list-item_up {
+  margin-top: -70px;
+}
+
 .we-have__list-item:hover {
   transform: scale(1.1);
 }

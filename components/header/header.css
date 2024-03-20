@@ -17,6 +17,6 @@
 }
 
 .menu__item:hover {
-  color: #cd06ff;
+  color: var(--color-purplLight);
   transition: 0.5s;
 }

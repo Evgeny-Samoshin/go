@@ -1,6 +1,6 @@
 .order {
   padding: 80px 0;
-  background-color: #440F51;
+  background-color: var(--color-backgroundPrimary);
 }
 
 /* .form {} */
@@ -47,25 +47,25 @@
   line-height: 133%;
   text-transform: uppercase;
   text-align: center;
-  background-color: #fff;
+  background-color: var(--color-white);
   border-radius: 8px;
-  color: #000;
+  color: var(--color-textSecondary);
   cursor: pointer;
 }
 
 .form__halls-label:hover {
-  outline: 3px solid #6c0287;
-  background-color: #eadeed;
+  outline: 3px solid var(--color-purplDarker);
+  background-color: var(--color-purplPale);
 }
 
 .form__halls-input:focus + .form__halls-label {
-  outline: 3px solid #6c0287;
+  outline: 3px solid var(--color-purplDarker);
 }
 
 .form__halls-label:active {
-  outline-color: #fff;
-  background-color: #6c0287;
-  color: #fff;
+  outline-color: var(--color-white);
+  background-color: var(--color-purplDarker);
+  color: var(--color-textPrimary);
 }
 
 .input_hidden {
@@ -109,7 +109,7 @@
 }
 
 .games__input:focus {
-  outline: 1px solid #cd06ff;
+  outline: 1px solid var(--color-purplLight);
 }
 
 .date-wrapper {
@@ -149,8 +149,8 @@
   padding: 12px 20px;
   font-size: 18px;
   line-height: 156%;
-  color: #211e1e;
-  background-color: #fff;
+  color: var(--color-dark);
+  background-color: var(--color-white);
 }
 
 .date-time__label {
@@ -196,10 +196,10 @@
   padding: 12px 20px;
   font-size: 18px;
   line-height: 156%;
-  color: #211e1e;
-  background-color: #fff;
+  color: var(--color-dark);
+  background-color: var(--color-white);
 }
 
 .customer__input:focus {
-  outline: 2px solid #cd06ff;
+  outline: 2px solid var(--color-purplLight);
 }

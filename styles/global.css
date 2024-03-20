@@ -21,8 +21,8 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
   font-size: 16px;
-  color: #FFFFFF;
-  background-color: #1B1A1B;
+  color: var(--color-textPrimary);
+  background-color: var(--color-backgroundSecondary);
 }
 
 

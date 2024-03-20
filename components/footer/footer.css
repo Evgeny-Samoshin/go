@@ -1,7 +1,7 @@
 .footer {
   padding-top: 50px;
   padding-bottom: 10px;
-  background: linear-gradient(180deg, #1b1a1b 0%, #370a37 100%);
+  background: var(--gradient-linear);
 }
 
 .footer__main {
@@ -46,10 +46,10 @@
 
 
 .social__img:hover > path {
-  fill: #eadeed;
+  fill: var(--color-purplPale);
 }
 .social__img:active > path {
-  fill: #cd06ff;
+  fill: var(--color-purplLight);
 }
 
 .social__link {
@@ -57,7 +57,7 @@
 }
 
 .social__link:focus {
-  outline: 1px solid #cd06ff;
+  outline: 1px solid var(--color-purplLight);
 }
 
 .social__link:active {
