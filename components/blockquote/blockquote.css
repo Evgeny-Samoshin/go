@@ -18,7 +18,7 @@
 .blockquote__text::after,
 .blockquote__text::before {
   content: "";
-  background-image: url(./img/bracket.svg);
+  background-image: url(img/bracket.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 20px;

@@ -8,6 +8,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
+  align-self: flex-start;
   flex-basis: 380px;
   min-height: 228px;
   padding: 6px 40px;

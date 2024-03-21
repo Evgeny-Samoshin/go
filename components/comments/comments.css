@@ -28,19 +28,19 @@
 .comment__img_1 {
   background-image:
     var(--gradient-radial),
-    url(./img/1.png);
+    url(img/1.png);
 }
 
 .comment__img_2 {
   background-image:
     var(--gradient-radial),
-    url(./img/2.png);
+    url(img/2.png);
 }
 
 .comment__img_3 {
   background-image:
     var(--gradient-radial),
-    url(./img/3.png);
+    url(img/3.png);
 }
 
 .comment__autor-name {

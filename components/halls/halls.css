@@ -20,17 +20,17 @@
 }
 
 .halls__list-item_vibes {
-  background-image: url(./img/80s.jpg);
+  background-image: url(img/80s.jpg);
 }
 
 .halls__list-item_starwars {
-  background-image: url(./img/starwars.jpg);
+  background-image: url(img/starwars.jpg);
 }
 
 .halls__list-item_wildwest {
-  background-image: url(./img/wildwest.jpg);
+  background-image: url(img/wildwest.jpg);
 }
 
 .halls__list-item_neon {
-  background-image: url(./img/neonstyle.jpg);
+  background-image: url(img/neonstyle.jpg);
 }
